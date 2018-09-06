@@ -186,7 +186,11 @@ video#myVideo.vid{display:block}
 .container-fluid.content{max-width:830px}
 h1{font-size:45px;width:700px}
 #membersPage h1{font-size:38px}
-h2{font-size:49px;margin-top:10px}
+header h2{font-size:49px;margin-top:10px}
+
+header h2:after {
+    text-shadow: 26px 4px 3px rgba(0,0,0,0.33);
+}
 .countries .item{width:310px}
 .countries .pic{height:200px}
 .desc .title{font-size:24px}
