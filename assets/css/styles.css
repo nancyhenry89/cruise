@@ -150,7 +150,7 @@ label.form-check-label{font-size:12px;line-height:16px;margin-bottom:10px}
 .note{font-size:10px}
 .free .text{font-size:34px;letter-spacing:1.5px;padding-left:40px;margin-top:0}
 .free .icon{width:30px}
-.free{height:84px;width:410px}
+.free{height: 94px;width: 100%;}
 .popup-title{font-size:13px;width:310px;height:34px}
 .container-fluid.content{max-width:830px}
 h1{font-size:45px;width:700px}
