@@ -37,7 +37,7 @@ h1{width:554px;margin:auto;font-size:28px;margin-top:35px;font-weight:400;letter
 h2{width:440px;font-family:var(--main-font);margin:auto;font-size:39px;margin-top:0;max-width:100%;background:-webkit-linear-gradient(#fddc59,#ffc500);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-family:'Playfair Display',serif;text-transform:uppercase;font-weight:900}
 .container{max-width:100%}
 h3{font-size:24px;margin-top:10px}
-#myVideo{position:fixed;right:0;bottom:0;min-width:100%;min-height:100%;width:auto;height:auto;top: -14px;left: 0;}
+#myVideo{position:fixed;right:0;bottom:0;min-width:100%;min-height:100%;width:auto;height:auto;/* top: -14px; *//* left: 0; */}
 .desc .title{font-size:18px;margin-bottom:4px;font-weight:700}
 .desc p{font-size:14px;margin-bottom:36px}
 .desc{padding-bottom:71px}
@@ -219,6 +219,7 @@ h1{font-size:28px}
 .free .text{padding-left:28px;padding-top:0;font-size:26px;text-align:center;margin-top:-20px}
 }
 @media screen and (min-width: 1400px) {
+    .slogan{font-size:22px;width: 480px;}
 .form{max-width:100%;background:rgba(255,255,255,.8);padding:30px}
 .form-cont{width:520px}
 .form-title{font-size:26px;text-align:center;width:111%;margin-left:-5%}
