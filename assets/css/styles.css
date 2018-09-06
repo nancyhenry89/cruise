@@ -205,7 +205,23 @@ h1 span:last-of-type {
 @media screen and (max-width:414px) {
 .popup{bottom:42px}
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
+    #membersPage header>p{font-size: 34px;}
+    h1 span:first-of-type {
+    left: -10px;
+}
+
+h1 span {
+    width: 45px;
+    top: 85px!important;
+}
+
+h1 span:last-of-type {
+    right: -10px;
+}
+#membersPage h1{
+    font-size: 25px;
+}
 h2{font-size:26px}
 h3{font-size:23px}
 .countries .item{width:104px}
@@ -218,6 +234,22 @@ h1{font-size:28px}
 }
 @media screen and (max-width:320px) {
 .free .text{padding-left:28px;padding-top:0;font-size:26px;text-align:center;margin-top:-20px}
+    #membersPage header>p{font-size: 34px;}
+    h1 span:first-of-type {
+    left: -10px;
+}
+
+h1 span {
+    width: 45px;
+    top: 74px!important;
+}
+
+h1 span:last-of-type {
+    right: -10px;
+}
+#membersPage h1{
+    font-size: 21px;
+}
 }
 @media screen and (min-width: 1400px) {
     .slogan{font-size:22px;width: 480px;}
