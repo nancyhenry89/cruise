@@ -1,7 +1,7 @@
 :root{--textcolor:#114c65;--linkcolor:#28b7f2;--color1:#7de1e0;--main-font:'Open Sans',sans-serif}
-body{font-family:var(--main-font);color:var(--textcolor)}
+body{font-family:var(--main-font);color: #000000;}
 img{max-width:100%}
-.bg{/* background:url(../imgs/malbg.png); *//* background-size:cover!important; *//* min-height:100vh; *//* padding:0; */position:relative;}
+.bg{background:url(../imgs/malbg.png);/* background-size:cover!important; *//* min-height:100vh; *//* padding:0; */position:relative;}
 .content{/* background:rgba(254,255,255,0.8); */max-width:628px;text-align:center;padding-bottom:60px;min-height:100vh;}
 .popup-title{background:#fff;width:290px;text-transform:uppercase;padding:6px;border-radius:3px;border:1px solid #e5e5e5;font-size:10px;font-weight:700;box-shadow:-1px -1px 13px #b9b9b9;color:#2f1a27;cursor:pointer;transition:all .5s ease;text-align:center}
 .popup{position:fixed;bottom:20px;z-index:9}
@@ -22,8 +22,8 @@ img{max-width:100%}
 ::-moz-placeholder{color:#f0d055}
 :-ms-input-placeholder{color:#f0d055}
 :-moz-placeholder{color:#f0d055a}
-h1{font-family:var(--main-font);width:554px;margin:auto;font-size:38px;margin-top:31px;font-weight:900;letter-spacing:1.5px;line-height:50px;max-width:100%}
-h2{width:380px;font-family:var(--main-font);margin:auto;font-size:29px;margin-top:10px;max-width:100%}
+h1{width:554px;margin:auto;font-size: 28px;margin-top: 35px;font-weight: normal;letter-spacing:1.5px;line-height:50px;max-width:100%;font-family: 'Oswald', sans-serif;color: #fff;text-transform: uppercase;}
+h2{width: 440px;font-family:var(--main-font);margin:auto;font-size: 39px;margin-top: 0px;max-width:100%;background: -webkit-linear-gradient(#fddc59, #ffc500);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-family: 'Playfair Display', serif;text-transform: uppercase;font-weight: 900;}
 .container{max-width:100%}
 
 h3{font-size:24px;margin-top:10px}
@@ -41,25 +41,51 @@ h3{font-size:24px;margin-top:10px}
 .desc p{font-size:14px;margin-bottom:36px}
 
 .desc{padding-bottom:71px}
-
-
+.slogan {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 350px;
+    margin: auto;
+    margin-top: 24px;
+}
+.form-cont {
+    padding: 7px;
+    border: 4px solid #fff;
+    width: 362px;
+    margin: auto;
+    margin-top: 10px;
+}
+.form p {
+    font-size: 8px;
+    color: #000;
+}
+.terms {
+    position: fixed;
+    color: #fff;
+    font-size: 14px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9;
+}
 label.form-check-label{width:calc(100% - 16px);font-size:9px;padding-left:19px;line-height:14px;font-weight:400}
 .form-check input{margin-right:7px;margin-top:0;position:absolute;top:1px}
-.form{max-width:310px;margin:auto;text-align:left}
+.form{max-width: 100%;margin:auto;text-align:left;background: rgba(255,255,255,0.7);padding: 30px;}
 .form-check{position:relative}
-.note{font-size:7px;margin-top:10px;color:#7d7d7d}
-.free{width:100%;margin-top:10px;height:40px;color:#fff;padding-top:0;padding-left:12px;text-align:center;border:2px solid #b7b7b7;margin-bottom:16px;border-radius:3px;background-image:linear-gradient(to bottom,#add265,#96c153,#80b140,#69a12d,#519119)}
-.free .icon{width:24px;float:left}
-.free .text{float:left;text-transform:uppercase;font-weight:700;padding-left:17px;padding-top:3px;font-size:15px;word-spacing:5px}
+.note{font-size:7px;/* margin-top:10px; */color: #000000;}
+.free{width: 280px;margin-top:10px;color:#fff;padding-top:0;/* padding-left:12px; */text-align:center;border: 0;margin-bottom:16px;border-radius:3px;background: url(../imgs/button.png);background-repeat: no-repeat;background-size: contain;height: 66px;padding-left: 46px;}
+.free .icon{width:24px;float:left;display: none;}
+.free .text{float:left;text-transform:uppercase;font-weight:700;padding-left:17px;margin-top: -8px;font-size: 26px;word-spacing:5px;font-family: 'Oswald', sans-serif;}
 .note:last-of-type a{display:block}
 .input-cont .icon{position:absolute;left:20px;top:10px;width:18px;color: #f0d055;}
 .input-cont{margin:auto;margin-bottom:8px;position:relative;width:100%}
-.input-cont input{width:100%;height:40px;border: 2px solid #f0d055;background: #fff;text-align:center;}
+.input-cont input{width:100%;height:40px;border: 2px solid #f0d055;background: #fff;text-align: left;padding-left: 45px;}
 .selected-country .pic{width:100%;margin:auto}
 a#back{color:#38b2f2;text-decoration:underline;font-size:12px;margin-top:5px;display:block;font-weight:700;cursor:pointer;display:none}
 .form-title{color:#000;font-size:19px;margin-top:10px;margin-bottom:18px;font-weight:700}
 .form a{color:#26b7f1}
-.note a{color:#b7d3e2}
+.note a{/* color:#b7d3e2 */}
 #membersPage header p{color:#8cafee;font-size:18px;text-align:center;margin-top:34px;margin-bottom:17px;letter-spacing:1px}
 #membersPage header>p{color:#fff;font-size:29px;background:#8cafee;height:67px;line-height:68px;margin-top:0}
 #membersPage header,#membersPage{padding:0!important}
@@ -81,20 +107,28 @@ a#back{color:#38b2f2;text-decoration:underline;font-size:12px;margin-top:5px;dis
 .has-review.offer .desc{margin-top:9px;margin-bottom:0}
 .gone{position:absolute;background:#000;color:#fff;bottom:0;right:0;padding:1px 12px;letter-spacing:1px}
 @media screen and (max-width:767px) {
+    .terms {
+    width: 100%;
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 0;
+    right: 0;
+}
 .container .item input{height:190px}
 .countries .title{font-size:16px}
 .input-cont .icon{font-size:25px}
-.popup-outer{height:30px}
+.popup-outer{height: 0;}
 footer img{width:160px}
 .countries .item{width:125px;margin-left:-2px;padding:5px}
-.content{width:100%;max-width:100%;padding:0;padding-bottom:100px}
+.content{width:100%;max-width:100%;padding:0;padding-bottom: 100px;}
 .form p{font-size:13px}
 .note{font-size:12px}
-.form{max-width:90%}
+.form{width: 100%;padding: 10px;}
 .form-title{font-size:21px;text-align:center}
 .input-cont input{height:55px;font-size:20px}
-.free{height:55px;padding-top:0;padding-left:9px}
-.free .text{font-size:18px;padding-left:8px}
+.free{padding-top: 0px;padding-left: 29px;width: 100%;/* margin-bottom: 4px; */height: 80px;}
+.free .text{font-size: 28px;padding-left: 60px;padding-top: 4px;text-align: center;}
 .free .icon{width:31px}
 label.form-check-label{font-size:13px}
 .countries .pic{height:95px}
@@ -123,9 +157,25 @@ footer{padding:10px 0!important;margin:0;border-top:1px solid #fff}
 #membersPage header{height:230px}
 }
 @media screen and (max-width:768px) {
+    .form-cont {
+    width: 100%;
+}
+
+.slogan {
+    max-width: 90%;
+}
+
+.container-fluid.video-bg.bg {
+    padding: 0;
+}
+
+
 .container.offers{text-align:center}
 .offer button.btn.primary-btn{position:relative;margin:auto;margin-top:30px}
 .offer{height:420px}
+.form-outer {
+    padding: 0;
+}
 }
 @media screen and (max-width:414px) {
 .popup{bottom:42px}
@@ -139,23 +189,42 @@ h1{font-size:28px}
 .countries .title{font-size:13px}
 .container .item input{height:140%}
 .form-title{font-size:17px}
+.free .text {
+    padding-left: 40px;
+    padding-top: 0;
+    margin-top: -10px;
+    text-align: center;
+}
+}
+@media screen and (max-width:320px) {
+    .free .text {
+        padding-left: 28px;
+        padding-top: 0;
+        font-size: 26px;
+        text-align: center;
+        margin-top: -20px;
+    }
 }
 @media screen and (min-width: 1400px) {
 
-.form{max-width: 537px;background: rgba(255,255,255,.8);padding: 30px;}
+.form{max-width: 100%;background: rgba(255,255,255,.8);padding: 30px;}
+
+.form-cont {
+    width: 520px;
+}
 .form-title{font-size:26px;text-align:center;width:111%;margin-left:-5%}
 .input-cont input{height:55px;font-size:19px}
 .input-cont .icon{font-size:22px}
-label.form-check-label{font-size:12px;line-height:16px}
+label.form-check-label{font-size:12px;line-height:16px;margin-bottom: 10px;}
 .form p{font-size:13px}
 .note{font-size:10px}
-.free .text{font-size:20px;letter-spacing:1.5px}
+.free .text{font-size: 34px;letter-spacing:1.5px;padding-left: 40px;margin-top: 0;}
 .free .icon{width:30px}
-.free{height:55px;padding-top:0;padding-left:20px}
+.free{height: 84px;/* padding-top:0; *//* padding-left:20px */width: 410px;}
 .popup-title{font-size:13px;width:310px;height:34px}
 .container-fluid.content{max-width:830px}
-h1{font-size:50px;width:700px}
-h2{font-size:35px}
+h1{font-size: 45px;width:700px;}
+h2{font-size: 49px;margin-top: 10px;}
 .countries .item{width:310px}
 .countries .pic{height:200px}
 .desc .title{font-size:24px}
