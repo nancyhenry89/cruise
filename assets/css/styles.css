@@ -1,5 +1,5 @@
 :root{--textcolor:#114c65;--linkcolor:#28b7f2;--color1:#7de1e0;--main-font:'Open Sans',sans-serif}
-body{font-family:var(--main-font);color:#000}
+body{font-family:var(--main-font);color: #fff;}
 img{max-width:100%}
 .bg{background:url(../imgs/malbg.png);position:relative}
 .content{max-width:628px;text-align:center;padding-bottom:60px;min-height:100vh}
@@ -23,6 +23,17 @@ img{max-width:100%}
 :-ms-input-placeholder{color:#f0d055}
 :-moz-placeholder{color:#f0d055a}
 h1{width:554px;margin:auto;font-size:28px;margin-top:35px;font-weight:400;letter-spacing:1.5px;line-height:50px;max-width:100%;font-family:'Oswald',sans-serif;color:#fff;text-transform:uppercase}
+
+#membersPage h1 {
+    color: #c39534;
+    font-size: 27px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-family: 'Assistant', sans-serif;
+    margin-top: 36px;
+    text-align: center;
+    width: auto;
+}
 h2{width:440px;font-family:var(--main-font);margin:auto;font-size:39px;margin-top:0;max-width:100%;background:-webkit-linear-gradient(#fddc59,#ffc500);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-family:'Playfair Display',serif;text-transform:uppercase;font-weight:900}
 .container{max-width:100%}
 h3{font-size:24px;margin-top:10px}
@@ -50,26 +61,58 @@ label.form-check-label{width:calc(100% - 16px);font-size:9px;padding-left:19px;l
 a#back{color:#38b2f2;text-decoration:underline;font-size:12px;margin-top:5px;display:block;font-weight:700;cursor:pointer;display:none}
 .form-title{color:#000;font-size:19px;margin-top:10px;margin-bottom:18px;font-weight:700}
 .form a{color:#26b7f1}
-#membersPage header p{color:#8cafee;font-size:18px;text-align:center;margin-top:34px;margin-bottom:17px;letter-spacing:1px}
-#membersPage header>p{color:#fff;font-size:29px;background:#8cafee;height:67px;line-height:68px;margin-top:0}
+
+
+#membersPage header>p{color: #35486b;font-size: 44px;text-align: center;height:67px;line-height: 56px;margin-top:0;font-family: 'Oswald', sans-serif;letter-spacing: 1px;}
 #membersPage header,#membersPage{padding:0!important}
-#membersPage .content{background:#f1f1f1;padding-top:21px;padding-bottom:80px;text-align:left;max-width:-webkit-fill-available}
-.content .container.offers{max-width:756px;background:#fbfbfb;padding:0 32px;padding-top:18px;padding-bottom:40px}
-.offers{background:#fff;border:1px solid #b7b7b7}
-#membersPage header{height:162px;padding-bottom:15px!important;background:#fff}
-.offer .title{font-size:14px;margin-top:12px;word-spacing:3px}
+#membersPage .content{background: url(../imgs/memBg.png);padding-top: 31px;padding-bottom:80px;text-align:left;max-width:-webkit-fill-available;background-size: 180px;}
+.content .container.offers{max-width: 816px;padding: 0;padding-top: 0;padding-bottom:40px;}
+.offers{background: transparent;/* border:1px solid #b7b7b7; */}
+#membersPage header{height: 173px;padding-bottom:15px!important;background: #f0f1f3;}
+.offer .title{font-size: 22px;margin-top:12px;word-spacing: 6px;text-transform: uppercase;font-weight: bold;}
 .offer .title del{color:#898989}
 .buyers-number{font-size:12px;margin-top:6px}
-.offer .desc{font-size:12px;margin-top:12px;padding-right:10px;margin-bottom:11px;padding-bottom:0}
-.offer button.btn.primary-btn{font-size:18px;width:calc(100% - 24px);background:#2fa9ff;color:#fff;line-height:33px;height:49px;-moz-box-shadow:inset 0 8px 8px -8px #696868,inset 0 -8px 8px -8px #696868;-webkit-box-shadow:inset 0 8px 8px -8px #696868,inset 0 -8px 8px -8px #696868;box-shadow:inset 0 0 8px -8px #696868,inset 0 -8px 8px -8px #696868;margin-top:5px;position:absolute;bottom:11px;transition:all .5s ease}
-.offer button.btn.primary-btn:hover{background:#207ab9}
-.offer{margin-bottom:0;padding:30px 10px;padding-bottom:16px;height:410px;position:relative}
-.offer-img{max-width:188px;margin:auto;height:187px;position:relative}
+.offer .desc{font-size: 15px;margin-top: 27px;padding-left: 4px;margin-bottom:11px;padding-bottom:0;font-family: 'Assistant', sans-serif;line-height: 18px;}
+.offer button.btn.primary-btn{font-size:18px;width: 140px;background: url(../imgs/button.png);color:#fff;line-height: 21px;height: 49px;-moz-box-shadow:inset 0 8px 8px -8px #696868,inset 0 -8px 8px -8px #696868;/* -webkit-box-shadow:inset 0 8px 8px -8px #696868,inset 0 -8px 8px -8px #696868; */box-shadow:inset 0 0 8px -8px #696868,inset 0 -8px 8px -8px #696868;margin-top:5px;/* position:absolute; */bottom:11px;transition:all .5s ease;float: left;background-position: -80px -14px;border-radius: 7px;}
+.offer button.btn.primary-btn:hover{/* background:#207ab9 */font-weight: bold;}
+.offer{margin-bottom: 3px;padding: 21px 31px;padding-bottom:16px;height: 317px;position:relative;background: #485a7e;}
+.offer-img{margin:auto;height:187px;position:relative;float: left;width: 250px;margin-top: 16px;}
 .review{color:#85c1ec;font-size:10px;margin-top:2px}
 .review span{letter-spacing:1px}
 .has-review .buyers-number{margin-top:3px}
 .has-review.offer .desc{margin-top:9px;margin-bottom:0}
 .gone{position:absolute;background:#000;color:#fff;bottom:0;right:0;padding:1px 12px;letter-spacing:1px}
+.offer-details {
+    float: left;
+    width: calc(100% - 250px);
+    padding-left: 23px;
+    font-family: 'Oswald', sans-serif;
+}
+h1 span {
+    width: 64px;
+    height: 2px;
+    background: #c39534;
+    display: inline-block;
+    margin: 6px 40px;
+}
+
+.offer .sub-title {
+    font-size: 17px;
+    word-spacing: 2px;
+    position: relative;
+    padding-left: 4px;
+}
+
+.offer .sub-title:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #fff;
+    top: 36px;
+    left: 3px;
+}
+
 @media screen and (max-width:767px) {
 .terms{width:100%;text-align:center;float:left;position:relative;left:0;right:0}
 .container .item input{height:190px}
@@ -154,19 +197,92 @@ label.form-check-label{font-size:12px;line-height:16px;margin-bottom:10px}
 .popup-title{font-size:13px;width:310px;height:34px}
 .container-fluid.content{max-width:830px}
 h1{font-size:45px;width:700px}
+
+#membersPage h1 {
+    font-size: 38px;
+}
 h2{font-size:49px;margin-top:10px}
 .countries .item{width:310px}
 .countries .pic{height:200px}
 .desc .title{font-size:24px}
 #membersPage header{height:215px}
 #membersPage header>p{height:82px;line-height:82px;font-size:40px;margin-top:40px}
-#membersPage header p{font-size:24px;margin-top:28px}
+#membersPage header p{font-size: 49px;margin-top:28px;}
 .content .container.offers{max-width:1000px}
-.offer-img{max-width:100%;height:250px;text-align:center}
-.offer{height:520px;margin-bottom:20px}
-.offer .title{font-size:20px}
+.offer-img{/* max-width:100%; */height:250px;text-align:center;}
+
+.offer{height: 340px;margin-bottom:20px;}
+.offer .title{font-size: 21px;margin-bottom: 10px;}
 .buyers-number{font-size:16px}
-.offer .desc{font-size:16px}
-.offer button.btn.primary-btn{font-size:24px;height:60px}
+.offer .desc{font-size: 17px;line-height: 23px;}
+.offer button.btn.primary-btn{font-size:24px;height:60px;width: 180px;}
 .gone{font-size:20px;right:10px}
+}
+
+
+
+#thankYou h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: bolder;
+}
+
+#thankYou p {
+    font-size: 24px;
+    padding: 0 82px;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+#thankYou span {
+    font-size: 16px;
+}
+
+#thankYou {
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    color: #fff;
+    width: 675px;
+    height: 387px;
+    background: #a6dda2;
+    -webkit-transform: translate(-50%,30%);
+    transform: translate(-50%,30%);
+    position: absolute;
+    left: 50%;
+    padding: 46px;
+    display: none;
+    z-index: 10;
+}
+#loading {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 9px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  .spinner {
+    margin-top: 37px;
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width:768px){
+    #thankYou {
+        max-width: 95%;
+        padding: 20px 10px;
+    }
+    
+    #thankYou p {
+        padding: 0;
+    }
 }
